@@ -69,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                     child: AnimatedContainer(
                       duration: Duration(seconds: 1),
                       width: changeButton ? 50 : 150,
-                      height: 40,
+                      height: 50,
                       alignment: Alignment.center,
                       child: changeButton
                           ? Icon(
@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                       decoration: BoxDecoration(
                         borderRadius:
-                            BorderRadius.circular(changeButton ? 40 : 8),
+                            BorderRadius.circular(changeButton ? 50 : 8),
                         color: Colors.cyan,
                       ),
                     ),
