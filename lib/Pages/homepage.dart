@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   final int viewcount = 1;
@@ -15,7 +16,7 @@ class HomePage extends StatelessWidget {
               Text("Welcome to my App! This is $viewcount and name is $name"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
