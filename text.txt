@@ -1,0 +1,28 @@
+//create gitub repositroy manually first
+sudo apt update
+sudo apt install git
+git --version
+//create one folder manulayy and text file inside it and open it in terminal
+git init
+git status
+//create text file
+git add .
+git status
+git config --global user.email "msaipanmulook@gmail.com"
+git config --global user.name "saipan17"
+git config user.name
+ git config user.email
+ git commit -m "first commit"
+ //generate token for your github account
+ //steps
+ 1.open github account
+ 2.click on settings
+ 3.next click on develper option
+ 4.select all checkboxes
+ 5 click on generate token
+
+ git remote add origin https://github.com/saipan17/saipan1.git
+git push -u origin master
+
+//after push command asking for username :enter username
+//next asking for password : paste generated account
